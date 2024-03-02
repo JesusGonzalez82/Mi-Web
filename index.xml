@@ -1,0 +1,195 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="tienda.xsl" type="text/xsl"?>
+
+<!--
+<!DOCTYPE bicicletas SYSTEM "Jesus_Gonzalez_Blanco.dtd">
+
+<bicicletas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Jesus_Gonzalez_Blanco.xsd">
+-->
+
+<bicicletas>
+	<bicicleta cod_bici="Crt01" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.bsmbikestienda.com/bicicletas-y-cuadros/ORBEA-ORCA-M20i-TEAM</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Orca M20 iTeam</modelo>
+		<anio_modelo>2022</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Fulcrum 6</ruedas>
+		<cambio>Shimano Ultegra Di2</cambio>
+		<relacion_marchas>50-34 / 11-30</relacion_marchas>
+		<peso>8.05kg</peso>
+		<PVP>5799.99€</PVP>
+		<imagen>road/Orca.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb01" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.mammothbikes.com/bicicleta-orbea-oiz-m10-2023/p-550632</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Oiz  M10</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox 34 Float SC Performance</horquilla>
+		<amortiguador>Fox i-line DPS Performance</amortiguador>
+		<ruedas>OQUO Mountain Performance MP28PRO</ruedas>
+		<cambio>Shimano XT M8100</cambio>
+		<relacion_marchas>32 / 10-51</relacion_marchas>
+		<peso>13.2kg</peso>
+		<PVP>5699.75€</PVP>
+		<imagen>mtb/Oiz.jpg</imagen>
+	</bicicleta>
+		<bicicleta cod_bici="Grv01" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.biciescapa.com/es/bicicletas/gravel-cx/bicicleta-orbea-terra-m20-team-23-71415</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Terra M20 Team</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Alloy Tubeless 700c</ruedas>
+		<cambio>Shimano GRX RX820</cambio>
+		<relacion_marchas>31-48 / 11-34</relacion_marchas>
+		<peso>11.5kg</peso>
+		<PVP>3699.00€</PVP>
+		<imagen>gravel/Terra.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt02" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.specialized.com/es/es/tarmac-sl8-pro---ultegra-di2/p/216960?color=349976-216960</enlace>
+		</compra>
+		<marca>Specialized</marca>
+		<modelo>Tarmac SL8 Pro</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Roval Rapide CL II</ruedas>
+		<cambio>Shimano Ultegra Di2</cambio>
+		<relacion_marchas>52-36 / 11-30</relacion_marchas>
+		<peso>7.16kg</peso>
+		<PVP>9000.00€</PVP>
+		<imagen>road/Tarmac.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb02" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://coluer.com/catalogue/stake-cr-68-dsdtmstcr68/</enlace>
+		</compra>
+		<marca>Coluer</marca>
+		<modelo>Stake CR 6.8</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>RockShox Sid SL</horquilla>
+		<amortiguador>RockShox SID Luxe Ultimate</amortiguador>
+		<ruedas>Fulcrum Red Zone 7</ruedas>
+		<cambio>Sram GX Eagle AXS</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>13kg aprox</peso>
+		<PVP>3587.22€</PVP>
+		<imagen>mtb/coluerStake.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Grv02" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://coluer.com/catalogue/stake-cr-68-dsdtmstcr68/</enlace>
+		</compra>
+		<marca>Merida</marca>
+		<modelo>Silex 300</modelo>
+		<anio_modelo>2018</anio_modelo>
+		<material>Aluminio</material>
+		<ruedas>Merida Comp</ruedas>
+		<cambio>Sram Apex</cambio>
+		<relacion_marchas>50 / 11-42</relacion_marchas>
+		<peso>10 kg</peso>
+		<PVP>1599.99€</PVP>
+		<imagen>gravel/silex.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt03" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/products/roadmachine-al-x-one-bikes-bmc-23-10607-003</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>RoadMachine AL x ONE</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Aluminio</material>
+		<ruedas>XRD-522</ruedas>
+		<cambio>Sram Apex</cambio>
+		<relacion_marchas>42 / 11-44</relacion_marchas>
+		<peso>8.16kg</peso>
+		<PVP>2999.99€</PVP>
+		<imagen>road/bmc.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb03" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/collections/fourstroke-01-mtb-bikes/products/fourstroke-01-ltd-bikes-bmc-23-10503-006</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>Fourstroke 01 LTD</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox Float 32 SC Factory | Kashima Coating - DT Swiss Remote Lockout</horquilla>
+		<amortiguador>Fox Float DPS Factory | Kashima Coating - DT Swiss Remote Lockout</amortiguador>
+		<ruedas>DT Swiss XRC 1200</ruedas>
+		<cambio>SRAM XX1 AXS Eagle</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>9.9kg aprox</peso>
+		<PVP>12999.99€</PVP>
+		<imagen>mtb/Fourstroke.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Grv03" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/products/kaius-01-two-bikes-bmc-24-10624-001</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>Kaius 01 TWO</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>CG39</ruedas>
+		<cambio>SRAM Force eTap AXS</cambio>
+		<relacion_marchas>43-30 / 10-36</relacion_marchas>
+		<peso>8 kg</peso>
+		<PVP>8999.99€</PVP>
+		<imagen>gravel/kaius.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb04" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m-ltd-2024</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Alma</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox 32 Float SC Factory 100 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima</horquilla>
+		<ruedas>Oquo Mountain Performance MP30LTD</ruedas>
+		<cambio>SRAM XX Eagle SL AXS</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>8.9kg aprox</peso>
+		<PVP>8399.99€</PVP>
+		<imagen>mtb/Alma.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt04" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://mmrbikes.com/products/adrenaline-sl?variant=44757560230161</enlace>
+		</compra>
+		<marca>MMR</marca>
+		<modelo>Adrenaline SL 00</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Vision Metron 45 SL</ruedas>
+		<cambio>Shimano Dura Ace DI2</cambio>
+		<relacion_marchas>36-52 / 11-30</relacion_marchas>
+		<peso>7.7kg aprox</peso>
+		<PVP>7699.99€</PVP>
+		<imagen>road/MMR.jpg</imagen>
+	</bicicleta>
+</bicicletas>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="tienda.xsl" type="text/xsl"?>
+
+<!--
+<!DOCTYPE bicicletas SYSTEM "Jesus_Gonzalez_Blanco.dtd">
+
+<bicicletas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Jesus_Gonzalez_Blanco.xsd">
+-->
+
+<bicicletas>
+		<bicicleta cod_bici="Grv01" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.biciescapa.com/es/bicicletas/gravel-cx/bicicleta-orbea-terra-m20-team-23-71415</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Terra M20 Team</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Alloy Tubeless 700c</ruedas>
+		<cambio>Shimano GRX RX820</cambio>
+		<relacion_marchas>31-48 / 11-34</relacion_marchas>
+		<peso>11.5kg</peso>
+		<PVP>3699.00€</PVP>
+		<imagen>gravel/Terra.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Grv02" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://coluer.com/catalogue/stake-cr-68-dsdtmstcr68/</enlace>
+		</compra>
+		<marca>Merida</marca>
+		<modelo>Silex 300</modelo>
+		<anio_modelo>2018</anio_modelo>
+		<material>Aluminio</material>
+		<ruedas>Merida Comp</ruedas>
+		<cambio>Sram Apex</cambio>
+		<relacion_marchas>50 / 11-42</relacion_marchas>
+		<peso>10 kg</peso>
+		<PVP>1599.99€</PVP>
+		<imagen>gravel/silex.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Grv03" uso="Gravel">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/products/kaius-01-two-bikes-bmc-24-10624-001</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>Kaius 01 TWO</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>CG39</ruedas>
+		<cambio>SRAM Force eTap AXS</cambio>
+		<relacion_marchas>43-30 / 10-36</relacion_marchas>
+		<peso>8 kg</peso>
+		<PVP>8999.99€</PVP>
+		<imagen>gravel/kaius.jpg</imagen>
+	</bicicleta>
+</bicicletas>

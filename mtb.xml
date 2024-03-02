@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="tienda.xsl" type="text/xsl"?>
+
+<!--
+<!DOCTYPE bicicletas SYSTEM "Jesus_Gonzalez_Blanco.dtd">
+
+<bicicletas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Jesus_Gonzalez_Blanco.xsd">
+-->
+
+<bicicletas>
+	<bicicleta cod_bici="Mtb01" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.mammothbikes.com/bicicleta-orbea-oiz-m10-2023/p-550632</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Oiz  M10</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox 34 Float SC Performance</horquilla>
+		<amortiguador>Fox i-line DPS Performance</amortiguador>
+		<ruedas>OQUO Mountain Performance MP28PRO</ruedas>
+		<cambio>Shimano XT M8100</cambio>
+		<relacion_marchas>32 / 10-51</relacion_marchas>
+		<peso>13.2kg</peso>
+		<PVP>5699.75€</PVP>
+		<imagen>mtb/Oiz.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb02" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://coluer.com/catalogue/stake-cr-68-dsdtmstcr68/</enlace>
+		</compra>
+		<marca>Coluer</marca>
+		<modelo>Stake CR 6.8</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>RockShox Sid SL</horquilla>
+		<amortiguador>RockShox SID Luxe Ultimate</amortiguador>
+		<ruedas>Fulcrum Red Zone 7</ruedas>
+		<cambio>Sram GX Eagle AXS</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>13kg aprox</peso>
+		<PVP>3587.22€</PVP>
+		<imagen>mtb/coluerStake.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb03" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/collections/fourstroke-01-mtb-bikes/products/fourstroke-01-ltd-bikes-bmc-23-10503-006</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>Fourstroke 01 LTD</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox Float 32 SC Factory | Kashima Coating - DT Swiss Remote Lockout</horquilla>
+		<amortiguador>Fox Float DPS Factory | Kashima Coating - DT Swiss Remote Lockout</amortiguador>
+		<ruedas>DT Swiss XRC 1200</ruedas>
+		<cambio>SRAM XX1 AXS Eagle</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>9.9kg aprox</peso>
+		<PVP>12999.99€</PVP>
+		<imagen>mtb/Fourstroke.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Mtb04" uso="Montaña">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m-ltd-2024</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Alma</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<horquilla>Fox 32 Float SC Factory 100 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima</horquilla>
+		<ruedas>Oquo Mountain Performance MP30LTD</ruedas>
+		<cambio>SRAM XX Eagle SL AXS</cambio>
+		<relacion_marchas>34 / 10-52</relacion_marchas>
+		<peso>8.9kg aprox</peso>
+		<PVP>8399.99€</PVP>
+		<imagen>mtb/Alma.jpg</imagen>
+	</bicicleta>
+</bicicletas>

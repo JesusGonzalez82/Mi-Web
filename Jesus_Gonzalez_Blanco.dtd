@@ -1,0 +1,22 @@
+<!ELEMENT bicicletas (bicicleta+)>
+<!ELEMENT bicicleta (compra, marca, modelo, anio_modelo, material, horquilla?, amortiguador?, ruedas, cambio, relacion_marchas, peso, PVP, imagen)>
+    <!ATTLIST bicicleta 
+               cod_bici CDATA #REQUIRED
+               uso (Carretera | Montaña | Gravel) #REQUIRED>
+<!ELEMENT compra (nombre, enlace)>			   
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT anio_modelo (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT horquilla (#PCDATA)>
+<!ELEMENT amortiguador (#PCDATA)>
+<!ELEMENT ruedas (#PCDATA)>
+<!ELEMENT cambio (#PCDATA)>
+<!ELEMENT relacion_marchas (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT PVP (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+
+
+
+

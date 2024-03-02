@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="bicicletas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bicicleta" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="bicicleta">
+    <xs:complexType>
+      <xs:sequence>
+		
+        <xs:element name="marca" type="xs:string"/>
+        <xs:element name="modelo" type="xs:string"/>
+        <xs:element name="anio_modelo" type="xs:integer"/>
+        <xs:element name="material" type="xs:string"/>
+        <xs:element name="horquilla" type="xs:string" minOccurs="0"/>
+        <xs:element name="amortiguador" type="xs:string" minOccurs="0"/>
+        <xs:element name="ruedas" type="xs:string"/>
+        <xs:element name="cambio" type="xs:string"/>
+        <xs:element name="relacion_marchas" type="xs:string"/>
+        <xs:element name="peso" type="xs:string"/>
+        <xs:element name="PVP" type="xs:string"/>
+        <xs:element name="imagen" type="xs:anyURI"/>
+		<xs:element name="compra" type="compraType"/>
+      </xs:sequence>
+      <xs:attribute name="cod_bici" type="xs:string" use="required"/>
+      <xs:attribute name="uso" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Carretera"/>
+            <xs:enumeration value="Montaña"/>
+            <xs:enumeration value="Gravel"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="compraType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="enlace" type="xs:anyURI"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

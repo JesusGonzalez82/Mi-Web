@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="tienda.xsl" type="text/xsl"?>
+
+<!--
+<!DOCTYPE bicicletas SYSTEM "Jesus_Gonzalez_Blanco.dtd">
+
+<bicicletas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Jesus_Gonzalez_Blanco.xsd">
+-->
+
+<bicicletas>
+	<bicicleta cod_bici="Crt01" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.bsmbikestienda.com/bicicletas-y-cuadros/ORBEA-ORCA-M20i-TEAM</enlace>
+		</compra>
+		<marca>Orbea</marca>
+		<modelo>Orca M20 iTeam</modelo>
+		<anio_modelo>2022</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Fulcrum 6</ruedas>
+		<cambio>Shimano Ultegra Di2</cambio>
+		<relacion_marchas>50-34 / 11-30</relacion_marchas>
+		<peso>8.05kg</peso>
+		<PVP>5799.99€</PVP>
+		<imagen>road/Orca.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt02" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://www.specialized.com/es/es/tarmac-sl8-pro---ultegra-di2/p/216960?color=349976-216960</enlace>
+		</compra>
+		<marca>Specialized</marca>
+		<modelo>Tarmac SL8 Pro</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Roval Rapide CL II</ruedas>
+		<cambio>Shimano Ultegra Di2</cambio>
+		<relacion_marchas>52-36 / 11-30</relacion_marchas>
+		<peso>7.16kg</peso>
+		<PVP>9000.00€</PVP>
+		<imagen>road/Tarmac.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt03" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://es.bmc-switzerland.com/es/products/roadmachine-al-x-one-bikes-bmc-23-10607-003</enlace>
+		</compra>
+		<marca>BMC</marca>
+		<modelo>RoadMachine AL x ONE</modelo>
+		<anio_modelo>2023</anio_modelo>
+		<material>Aluminio</material>
+		<ruedas>XRD-522</ruedas>
+		<cambio>Sram Apex</cambio>
+		<relacion_marchas>42 / 11-44</relacion_marchas>
+		<peso>8.16kg</peso>
+		<PVP>2999.99€</PVP>
+		<imagen>road/bmc.jpg</imagen>
+	</bicicleta>
+	<bicicleta cod_bici="Crt04" uso="Carretera">
+		<compra>
+			<nombre>Compra ya!</nombre>
+			<enlace>https://mmrbikes.com/products/adrenaline-sl?variant=44757560230161</enlace>
+		</compra>
+		<marca>MMR</marca>
+		<modelo>Adrenaline SL 00</modelo>
+		<anio_modelo>2024</anio_modelo>
+		<material>Carbono</material>
+		<ruedas>Vision Metron 45 SL</ruedas>
+		<cambio>Shimano Dura Ace DI2</cambio>
+		<relacion_marchas>36-52 / 11-30</relacion_marchas>
+		<peso>7.7kg aprox</peso>
+		<PVP>7699.99€</PVP>
+		<imagen>road/MMR.jpg</imagen>
+	</bicicleta>
+</bicicletas>
